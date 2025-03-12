@@ -12,18 +12,18 @@ It features:
 - Ghost piece for better gameplay visibility
 - Score tracking with high scores
 - Keyboard controls for movement and rotation
-A simple Node.js server (`html_server.js`) is used to serve static files.
+- A simple Node.js server (`html_server.js`) is used to serve static files.
 
 ## Installation
 1. Clone the repository.
 2. Install dependencies (by running "npm install" in your terminal).
 3. Start the server (by running "node html_server.js" in your terminal).
-4. Open your browser and go to: https://web-f194e9afc-a13a.docode.us.qwasar.io/
+4. Open your browser and go to: http://localhost:8080
 Enjoy the game!
 
 ## Usage
 1. Start the server (by running "node html_server.js" in your terminal).
-2. Open the game in your browser at: https://web-f194e9afc-a13a.docode.us.qwasar.io/
+2. Open the game in your browser at: http://localhost:8080
 3. Controls:
 - Arrow Left / Right: Move piece left or right
 - Up Arrow: Rotate piece
