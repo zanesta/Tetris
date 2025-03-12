@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <div class="game-container">
+        <div style="position: relative;">
+            <canvas id="gameCanvas"></canvas>
+            <div id="game-over">
+                <div>
+                    <h2>Game Over</h2>
+                    <p>Press SPACE to start new game</p>
+                </div>
+            </div>
+        </div>
+        <div class="score-container">
+            <div class="score-label">High Score</div>
+            <div id="highScore" class="score">0</div>
+            <div class="score-label">Current Score</div>
+            <div id="currentScore" class="score">0</div>
+            <div class="score-label">Next Piece</div>
+            <canvas id="next-piece"></canvas>
+            <div class="instructions">
+                    <h3>Game Controls:</h3>
+                        <li> ← Move left</li>
+                        <li> → Move right</li>
+                        <li> ↑ Rotate piece</li>
+                        <li> Space: Hard drop</li>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="game.js"></script>
+    <div class="copyright-notice">
+        Tetris © 1985~2025 Tetris Holding. Tetris logos, Tetris theme song and Tetriminos are trademarks of Tetris Holding. The Tetris trade dress is owned by Tetris Holding. Licensed to The Tetris Company. Tetris Game Design by Alexey Pajitnov. Tetris Logo Design by Roger Dean. All Rights Reserved.
+    </div>
+</body>
+</html>
